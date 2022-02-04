@@ -1,0 +1,119 @@
+.firstpage {
+  background-image: url("background6.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+ 
+}
+.secondpage{
+  background-image: url("honey garlic shrimp .jpg ") ;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  
+  
+}
+.foodfullpage{
+  justify-content: left;
+}
+
+.information{
+  background-color: burlywood;
+  color: black;
+  font-size: 30px;
+  border: chocolate;
+  border-radius: 20px;
+}
+h1 {
+  text-align: right;
+  color: 466900;
+  margin-left: 20px;
+  font-family: papyrus;
+  font-size: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: center;
+}
+h2{
+  text-align: right;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-family: fantasy;
+  font-size: 40px;
+  color: 466900;
+}
+
+.foodfacts{
+  background-color: coral;
+}
+
+.addtobasket{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.foodpictures{
+  width: 300px;
+  height: 300px;
+  border:dashed;
+  border-color:floralwhite;
+  border-radius: 150px;
+  margin: 10px;
+
+}
+
+.listoffoods {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; 
+  justify-content: space-between;
+  
+  object-fit: cover;
+  flex-direction:row;
+  justify-items: center;
+  justify-content: right;
+  flex: grow 1;
+  
+}
+
+.foodchoosebutton {
+  color: 435804;
+  background-color:fbefca;
+  border-radius: 20px;
+  border: hidden;
+  font-family: fantasy;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  justify-content: right;
+  
+}
+
+.foodname {
+  font-weight: 600;
+}
+
+#person {
+  width: 200px;
+  height: 50px;
+  background-color: darksalmon;
+  justify-content: space-around;
+  justify-content: space-between;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+@media (max-width: 400px) {
+  .listoffoods {
+    flex-direction: column;
+  
+  }
+  h1{
+    font-size: 30px;
+  }
+  
+
+}
